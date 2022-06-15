@@ -28,7 +28,7 @@ A short task of predicting heart disease and finding out the perfect model for i
 - `thal` [normal; fixed defect; reversible defect]
 - `num` the predicted attribute
 
-The target column is the `num`. Since `num` can only occur within 5 categories (as shown by the dataset), it is a multi-class classification problem.
+The label is the `num`. Since `num` can only occur within 5 categories (as shown by the dataset), it is a multi-class classification problem.
 
 The features are all columns EXCEPT `id` and `origin`.
 
