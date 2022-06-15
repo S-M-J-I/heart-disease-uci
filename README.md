@@ -52,4 +52,8 @@ We then use 6 different models on the data to find which one gives us the best c
 - `Random Forest` (Accuracy score: 0.6630) **Best performing**
 
 ### Conclusion:
-The best model for this case, a multi-class classification problem, is the **Random Forest** (RandomForestClassifier), having an accuracy score of 66% with a runtime of 6.2s.
+The best model for this case, a multi-class classification problem, is the **Random Forest** (RandomForestClassifier), having an accuracy score of 66%. 
+
+Random Forest is suitable for situations when we have a large dataset, and interpretability is not a major concern. It also provides very high accuracy. 
+
+However, the main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions. In general, these algorithms are fast to train, but quite slow to create predictions once they are trained.
